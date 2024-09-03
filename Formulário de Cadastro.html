@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <header> 
+        <h1> Página de cadastro </h1>
+        <p> Faça seu cadastro! </p>
+                </header>
+        <main>
+            <form action="processar-dados" method="post">
+                <label for="nome completo">Nome Completo:</label>
+                <input type="text" id="nome" name="nome"required>
+                <br> <br>
+
+                <label for="data de nascimento"> Data de Nascimento:</label>
+                <input type="text" id="data de nascimento" name="data de nascimento" required>
+                <br> <br>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+                <br> <br>
+                
+                <label for="sexo"> Selecione seu sexo:</label>
+                <select name="sexo" id="sexo">
+                    <option value="Masculino"> Masculino</option>
+                    <option value="Feminino"> Feminino</option>
+                    <option value="Outro"> Outro</option>
+                    <option value="Prefiro não informar"> Prefiro não informar</option>
+                </select> 
+                <br> <br>
+                <label for="Um pouco sobre si"> Um pouco sobre si</label> <br>
+                <textarea name="Um pouco sobre si" id=" Um pouco sobre si" rows="10" cols="110"></textarea>
+                <br>
+                <button type="submit">Entrar</button>
+                <br> <br>
+
+
+            </form>
+            
+        </main>
+</body>
+</html
